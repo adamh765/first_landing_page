@@ -1,0 +1,45 @@
+/*header, body, footer {
+display: flex;
+}*/
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    font-style: Roboto;
+    }
+
+header, .sign-up{
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.sign-up{
+    font-size: 48px;
+    font-weight: 900;
+    display: flex;
+}
+
+.list{
+    display: flex;
+    gap: 16px;
+    list-style: none;
+}
+
+.sign-up-left{
+    display: flex;
+    flex-direction: column;
+}
+.sign-up-right{
+    display: flex;
+    flex-direction: rows;
+}
+.quote{
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: light italic;
+    color: #1F2937;
+}
+footer{
+  background-color: #1F2937;
+    color: #F9FAF8;  
+}
